@@ -16,7 +16,6 @@ const Navbar = () => {
     <nav className={classes.nav}>
       <div>
         {Object.keys(nvg).map(elem => {
-        console.log(nvg[elem])
           return (
             <div key={elem}>
               {(elem === "Settings")? (<p></p>) :''}
