@@ -10,22 +10,18 @@
   font-size: 25px ;
 }
 
-
 .header img {
-  height: 60px;
-  margin-top: 2px;
-  /* pointer-events: none; */
+  height: 50px;
+  margin-top: 6px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .header img {
-    animation: App-logo-spin infinite 8s linear;
+    animation: ReactLogo infinite 7s linear;
   }
 }
 
-
-
-@keyframes App-logo-spin {
+@keyframes ReactLogo {
   from {
     transform: rotate(0deg);
   }

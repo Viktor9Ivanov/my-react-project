@@ -18,7 +18,7 @@ const Navbar = () => {
         {Object.keys(nvg).map(elem => {
           return (
             <div key={elem}>
-              {(elem === "Settings")? (<p></p>) :''}
+              {(elem == "Settings") ? (<br />) : ''}
               <NavLink to={nvg[elem]} activeClassName={classes.activeLink} >
                 {elem}
               </NavLink>
