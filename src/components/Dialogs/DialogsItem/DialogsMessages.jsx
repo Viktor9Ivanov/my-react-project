@@ -2,10 +2,10 @@ import React from 'react'
 
 const DialogsMessages = (props) =>{
   return (
-      <div>
-        {Object.keys(props.messages).map(message => {
+      <div >
+        {Object.keys(props.messages).map(m => {
             return(
-              <div className={props.styles}>{message}</div>
+              <div key={m} className={props.styles}>{m}</div>
                 )})}
       </div>
   )
