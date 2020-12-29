@@ -3,7 +3,7 @@ import stl from './Dialogs.module.css'
 
 const DialogsLink = () => {
     return (
-        <div className={stl.divColor}>
+        <div className={stl.div}>
             Dialogs
         </div>
     );
