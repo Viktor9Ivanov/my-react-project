@@ -3,7 +3,7 @@ import classes from './Post.module.css'
 
 const Post = (props) => {
     return (
-        <div >
+        <div>
             <div className={classes.images}>
                 <img src={props.img} alt='Post images' />
             </div>
