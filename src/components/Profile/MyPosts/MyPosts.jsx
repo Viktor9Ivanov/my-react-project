@@ -2,7 +2,7 @@ import React,  { useState } from 'react'
 import styles from './MyPosts.module.css'
 import Post from './Post/Post'
 
-
+// commit control
 
 const MyPosts = (props) => {
     let [text,setText] = useState('')
