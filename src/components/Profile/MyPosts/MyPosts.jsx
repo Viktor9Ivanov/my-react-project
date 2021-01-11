@@ -1,8 +1,8 @@
 import React,  { useState } from 'react'
+import PropTypes from 'prop-types'
 import styles from './MyPosts.module.css'
 import Post from './Post/Post'
 
-// commit control
 
 const MyPosts = (props) => {
     let [text,setText] = useState('')
@@ -16,8 +16,7 @@ const MyPosts = (props) => {
                 </textarea>                   
             </div>
             <div>
-                <button onClick={() =>{ props.addPost(text) 
-                    setText('')}}>
+                <button onClick={() =>{ props.addPost(text) = setText('')}}>
                         Add post
                 </button>
             </div>
