@@ -10,7 +10,7 @@ const ProfileInfo = () => {
       </div>
       <div className={styles.ava}>
         ava+discription
-</div>
+      </div>
     </div>
   )
 }

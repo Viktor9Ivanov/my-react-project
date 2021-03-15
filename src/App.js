@@ -10,9 +10,9 @@ import Music from "./components/Music/Music";
 import News from "./components/News/News";
 import { Route } from "react-router-dom";
 
-function App(props) {
+const App = (props) => {
   return (
-    <div className="app-wrapper">
+    <div className="app">
       <Header />
       <Navbar />
       <div className="content">

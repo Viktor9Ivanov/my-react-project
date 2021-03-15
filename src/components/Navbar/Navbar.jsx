@@ -18,7 +18,7 @@ const Navbar = () => {
         {Object.keys(nvg).map(elem => {
           return (
             <div key={elem}>
-              {(elem == "Settings") ? (<br />) : ''}
+              {(elem === "Settings") ? <br /> : ''}
               <NavLink to={nvg[elem]} activeClassName={classes.activeLink} >
                 {elem}
               </NavLink>
@@ -30,5 +30,5 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
 
